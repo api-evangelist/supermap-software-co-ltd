@@ -1,0 +1,16 @@
+generated: '2026-10-23'
+method: none
+source:
+- https://zapier.com/apps/supermap-software-co-ltd/integrations
+- https://n8n.io/integrations/supermap-software-co-ltd/
+- https://composio.dev/toolkits/supermap-software-co-ltd
+- https://monid.ai/tools/supermap-software-co-ltd
+checked:
+- https://composio.dev/toolkits/supermap-software-co-ltd
+- https://monid.ai/tools/supermap-software-co-ltd
+- https://n8n.io/integrations/supermap-software-co-ltd/
+- https://zapier.com/apps/supermap-software-co-ltd/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

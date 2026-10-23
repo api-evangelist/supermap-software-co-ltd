@@ -1,0 +1,124 @@
+generated: '2026-10-23'
+method: probed
+generator: harvest-packages.py
+source: registry metadata endpoints (registry.npmjs.org, pypi.org, rubygems.org, api.nuget.org, packagist.org, crates.io) ; github.com/SuperMap
+ownership_rule: 'official: true only when the registry metadata (homepage, repository, author, URLs) names the provider''s domain (security/supermap-software-co-ltd-domain-security.yml,
+  supermap.com) or its accepted GitHub org (SuperMap).'
+packages:
+- name: vue-iclient
+  registry: github
+  url: https://github.com/SuperMap/vue-iclient
+  language: JavaScript
+  official: true
+  version: null
+  published: '2026-10-23'
+  source_repo: https://github.com/SuperMap/vue-iclient
+  evidence: repository in github.com/SuperMap, whose profile names the provider's domain
+- name: iClient-JavaScript
+  registry: github
+  url: https://github.com/SuperMap/iClient-JavaScript
+  language: JavaScript
+  official: true
+  version: null
+  published: '2026-10-23'
+  source_repo: https://github.com/SuperMap/iClient-JavaScript
+  evidence: repository in github.com/SuperMap, whose profile names the provider's domain
+- name: react-iclient
+  registry: github
+  url: https://github.com/SuperMap/react-iclient
+  language: JavaScript
+  official: true
+  version: null
+  published: '2026-10-20'
+  source_repo: https://github.com/SuperMap/react-iclient
+  evidence: repository in github.com/SuperMap, whose profile names the provider's domain
+- name: iClient3D-for-WebGL
+  registry: github
+  url: https://github.com/SuperMap/iClient3D-for-WebGL
+  language: JavaScript
+  official: true
+  version: null
+  published: '2026-07-28'
+  source_repo: https://github.com/SuperMap/iClient3D-for-WebGL
+  evidence: repository in github.com/SuperMap, whose profile names the provider's domain
+- name: vue-iClient3D_for_Cesium
+  registry: github
+  url: https://github.com/SuperMap/vue-iClient3D_for_Cesium
+  language: JavaScript
+  official: true
+  version: null
+  published: '2023-10-18'
+  source_repo: https://github.com/SuperMap/vue-iClient3D_for_Cesium
+  evidence: repository in github.com/SuperMap, whose profile names the provider's domain
+- name: vue-iClient3D
+  registry: github
+  url: https://github.com/SuperMap/vue-iClient3D
+  language: JavaScript
+  official: true
+  version: null
+  published: '2023-10-07'
+  source_repo: https://github.com/SuperMap/vue-iClient3D
+  evidence: repository in github.com/SuperMap, whose profile names the provider's domain
+- name: react-iClient3D
+  registry: github
+  url: https://github.com/SuperMap/react-iClient3D
+  language: JavaScript
+  official: true
+  version: null
+  published: '2022-06-28'
+  source_repo: https://github.com/SuperMap/react-iClient3D
+  evidence: repository in github.com/SuperMap, whose profile names the provider's domain
+- name: ATLab-ATLChain-SDK-JAVA
+  registry: github
+  url: https://github.com/SuperMap/ATLab-ATLChain-SDK-JAVA
+  language: Java
+  official: true
+  version: null
+  published: '2020-05-22'
+  source_repo: https://github.com/SuperMap/ATLab-ATLChain-SDK-JAVA
+  evidence: repository in github.com/SuperMap, whose profile names the provider's domain
+- name: iClient3D-for-WebGL-Sample-Code
+  registry: github
+  url: https://github.com/SuperMap/iClient3D-for-WebGL-Sample-Code
+  language: JavaScript
+  official: true
+  version: null
+  published: '2018-04-13'
+  source_repo: https://github.com/SuperMap/iClient3D-for-WebGL-Sample-Code
+  evidence: repository in github.com/SuperMap, whose profile names the provider's domain
+- name: iClient-JavaScript-Classic
+  registry: github
+  url: https://github.com/SuperMap/iClient-JavaScript-Classic
+  language: JavaScript
+  official: true
+  version: null
+  published: '2017-11-24'
+  source_repo: https://github.com/SuperMap/iClient-JavaScript-Classic
+  evidence: repository in github.com/SuperMap, whose profile names the provider's domain
+- name: iClient3D-for-Plugin-Demo
+  registry: github
+  url: https://github.com/SuperMap/iClient3D-for-Plugin-Demo
+  language: JavaScript
+  official: true
+  version: null
+  published: '2017-01-12'
+  source_repo: https://github.com/SuperMap/iClient3D-for-Plugin-Demo
+  evidence: repository in github.com/SuperMap, whose profile names the provider's domain
+- name: iClient-for-Win8
+  registry: github
+  url: https://github.com/SuperMap/iClient-for-Win8
+  language: C#
+  official: true
+  version: null
+  published: '2015-08-27'
+  source_repo: https://github.com/SuperMap/iClient-for-Win8
+  evidence: repository in github.com/SuperMap, whose profile names the provider's domain
+- name: iClient-for-DotNet
+  registry: github
+  url: https://github.com/SuperMap/iClient-for-DotNet
+  language: C#
+  official: true
+  version: null
+  published: '2015-08-27'
+  source_repo: https://github.com/SuperMap/iClient-for-DotNet
+  evidence: repository in github.com/SuperMap, whose profile names the provider's domain

@@ -1,23 +1,73 @@
 aid: supermap-software-co-ltd
+
 name: SuperMap Software Co., Ltd.
-description: 'SuperMap Software Co., Ltd. is a company surfaced via the API Evangelist harvest backlog
-  (source: vc-portfolio) and added to the network as a stub for full-pipeline profiling.'
+
+description: 'SuperMap Software Co., Ltd. develops and sells geographic information system (GIS) software and related platform technologies. Its product portfolio includes cloud and edge GIS servers, desktop, web, mobile, and component GIS applications, as well as solutions for smart cities, land management, natural resources, public safety, and disaster management. The company targets industries such as cadastre, transportation, energy, and municipal administrations that require geospatial data processing and analysis.'
+
 url: https://raw.githubusercontent.com/api-evangelist/supermap-software-co-ltd/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-23'
+
 modified: '2026-10-23'
+
 tags:
-- Company
-apis: []
+- GIS Software
+- Geospatial Intelligence
+- Smart City Solutions
+- Land Management
+- Disaster Management
+- Transportation
+- Energy
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/supermap-software-co-ltd-hosts.yml
+- type: SDKs
+  url: packages/supermap-software-co-ltd-packages.yml
+- type: Packages
+  url: packages/supermap-software-co-ltd-packages.yml
+- type: Support
+  url: https://support.supermap.com/
+- type: Newsroom
+  url: https://www.supermap.com/en-us/news/?what-is-gis.html
+- type: GitHubOrganization
+  url: https://github.com/SuperMap
+- type: DomainSecurity
+  url: security/supermap-software-co-ltd-domain-security.yml
 - type: Website
   url: https://www.supermap.com/
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-23'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://www.supermap.com/
+    status: 200
+x-enrichment:
+  date: '2026-10-23'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
